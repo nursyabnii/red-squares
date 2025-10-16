@@ -1,0 +1,95 @@
+/* CSS untuk membuat game fullscreen dengan tema neon */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    /* Gunakan font baru dan warna dasar gelap */
+    font-family: 'Turret Road', sans-serif;
+    background-color: #000000;
+    color: #fff;
+}
+
+canvas {
+    display: block;
+}
+
+/* CSS untuk Menu Utama dengan gaya neon */
+#startMenu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(10, 0, 30, 0.85);
+    /* Latar belakang gelap transparan */
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #ff00ff;
+    /* Border neon magenta */
+    text-align: center;
+    box-shadow: 0 0 15px #ff00ff, 0 0 25px #ff00ff;
+    /* Efek glow */
+    width: 80%;
+    max-width: 450px;
+}
+
+#startMenu h1 {
+    color: #00ffff;
+    /* Cyan */
+    margin-top: 0;
+    font-size: 3em;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+    /* Efek glow pada teks */
+}
+
+#startMenu h2 {
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+#startMenu p {
+    color: #f0f0f0;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+#finalScoreDisplay {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+#finalScoreDisplay:empty {
+    display: none;
+}
+
+#highScoreDisplay {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #00ffff;
+    /* Cyan */
+    text-shadow: 0 0 5px #00ffff;
+}
+
+#playButton {
+    background-color: transparent;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    padding: 15px 30px;
+    font-size: 1.8em;
+    font-family: 'Turret Road', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 5px #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+#playButton:hover {
+    background-color: #00ffff;
+    color: #000;
+    box-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
+}

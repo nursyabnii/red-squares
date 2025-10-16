@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Dodge</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="gameCanvas"></canvas>
+
+    <div id="startMenu">
+        <h1>NEON DODGE</h1>
+        <p id="finalScoreDisplay"></p>
+        <p id="highScoreDisplay">High Score: 0</p>
+        <h2>Cara Bermain:</h2>
+        <p>Gerakkan mouse atau jarimu untuk menghindari kotak merah. Bertahanlah selama mungkin!</p>
+        <button id="playButton">PLAY</button>
+    </div>
+
+    <audio id="spawnSound" src="sounds/spawn.wav" preload="auto"></audio>
+    <audio id="gameOverSound" src="sounds/game-over.wav" preload="auto"></audio>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
