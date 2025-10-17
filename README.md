@@ -23,7 +23,7 @@ Neon Dodge adalah game browser sederhana dan adiktif dengan tema visual neon yan
 Game ini tidak memerlukan instalasi atau build step yang rumit. Cukup ikuti langkah-langkah berikut:
 
 Clone atau Unduh Repositori:
-```git clone https://github.com/NAMA_USER/NAMA_REPO.git```
+```git clone https://github.com/nursyabnii/red-squares.git```
 Atau unduh file .zip dan ekstrak.
 
 Siapkan File Audio:
