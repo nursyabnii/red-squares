@@ -95,6 +95,12 @@ function startGame() {
 }
 
 function endGame() {
+    // --- PERBAIKAN DIMULAI DI SINI ---
+    // Hentikan interval spawn musuh SEGERA setelah game berakhir.
+    // Inilah yang mencegah suara spawn terus muncul.
+    clearInterval(spawnInterval);
+    // --- PERBAIKAN SELESAI ---
+
     // Putar suara game over
     gameOverSound.play();
 
